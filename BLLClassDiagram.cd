@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SWAP.BLL.ApplicationService">
+    <Position X="7.75" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQCAAAAAAAAAASAAAAAAAQAACKBABAhAAAYCgAAQCA=</HashCode>
+      <FileName>BLL\ApplicationService.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="gameService" />
+      <Field Name="orderService" />
+      <Field Name="shoppingCartService" />
+      <Field Name="userService" />
+      <Field Name="validationService" />
+      <Field Name="context" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SWAP.BLL.EntiityServices.GameService">
+    <Position X="4.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BLL\EntiityServices\GameService.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="context" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SWAP.BLL.EntiityServices.OrderService">
+    <Position X="4.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAABAAAQAA=</HashCode>
+      <FileName>BLL\EntiityServices\OrderService.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="context" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SWAP.BLL.EntiityServices.ShoppingCartService">
+    <Position X="12" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAQAAQAAAAAAAAAAAAAAAAAIAAAAACA=</HashCode>
+      <FileName>BLL\EntiityServices\ShoppingCartService.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="context" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SWAP.BLL.EntiityServices.UserService">
+    <Position X="14.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAADAAAAAAAAAAAAAAAAAAAAAAABAQAAAAAQAgAAAAE=</HashCode>
+      <FileName>BLL\EntiityServices\UserService.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="context" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SWAP.BLL.EntiityServices.ValidationService">
+    <Position X="11" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAIAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>BLL\EntiityServices\ValidationService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SWAP.DAL.Data.Contexts.ApplicationContext">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wAEAQCAAAAAAAAAAAAIAAAAAAAAABAAAAIAAAAAAAAA=</HashCode>
+      <FileName>DAL\Data\Contexts\ApplicationContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
